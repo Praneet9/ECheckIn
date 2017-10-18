@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/teamname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#212121"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/teamcount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/teamname"
+        android:layout_marginTop="24dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#212121"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/teamMembers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/teamcount"
+        android:layout_marginTop="26dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#212121"
+        android:text="TextView" />
+
+</RelativeLayout>
